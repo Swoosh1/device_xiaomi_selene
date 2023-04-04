@@ -15,7 +15,7 @@ addons:
 services:
   - docker
 before_install:
-  - echo "$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" | docker login -u "$Swoosh1" --password-stdin 2>/dev/null
+  - echo "$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" | docker login -u "$Swoosh1" --password-stdin 2>/dev/null
   - docker pull fr3akyphantom/droid-builder:latest
 before_script:
   - cd $HOME && mkdir twrp
